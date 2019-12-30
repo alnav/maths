@@ -93,3 +93,24 @@ If $f(x)$ is continuous on the interval $[a,b]$and $M$ lies between the values o
 
 A function $f$ is *continuous on a closed interval $[a,b]$* if it is right-continuous at $a$, left-continuous at $b$ and continuous at all points between $a$ and $b$
 
+## Limits and division
+
+- $\lim_{x \to a} f(x) = L$
+- $\lim_{x \to a} g(x) = M$
+
+$M \not ={0}$, then $\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}$
+
+$M =0$, then $\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{not small}{small} = \plusmn huge! = DNE$
+
+$M =0$ and $L = 0$, then $\lim_{x \to a} \frac{f(x)}{g(x)} = almost \frac{0}{0} =$ might exist or not.
+
+### examples
+
+$\lim_{x \to 0} = \frac{x^2 + 2x - 3}{x^2 - 3x + 2} = \frac{-3}{2}$
+
+$\lim_{x \to 1} = \frac{x^2 + 2x - 3}{x^2 - 3x + 2} = \frac{0}{0} =$ ... factorization ... $\lim_{x \to 1} = \frac{(x-1)(x+3)}{(x-1)(x-2)} = \frac{x+3}{x-2} = \frac{4}{-1} = -4$
+
+$\lim_{x \to -1} = \frac{x + 1}{x + \frac{1}{x} + 2} = \frac{0}{0} =$ ... 
+$\frac{x^2 + x}{x^2+1+2x} = \frac{x(x+1)}{(x+1)^2} = \lim_{x \to -1} \frac{x}{x+1} = \frac{-1}{0} = DNE$
+
+
