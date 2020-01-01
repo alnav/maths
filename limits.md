@@ -104,7 +104,7 @@ $M =0$, then $\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{not small}{small} = \plus
 
 $M =0$ and $L = 0$, then $\lim_{x \to a} \frac{f(x)}{g(x)} = almost \frac{0}{0} =$ might exist or not.
 
-### examples
+### Examples
 
 $\lim_{x \to 0} = \frac{x^2 + 2x - 3}{x^2 - 3x + 2} = \frac{-3}{2}$
 
@@ -113,4 +113,14 @@ $\lim_{x \to 1} = \frac{x^2 + 2x - 3}{x^2 - 3x + 2} = \frac{0}{0} =$ ... factori
 $\lim_{x \to -1} = \frac{x + 1}{x + \frac{1}{x} + 2} = \frac{0}{0} =$ ... 
 $\frac{x^2 + x}{x^2+1+2x} = \frac{x(x+1)}{(x+1)^2} = \lim_{x \to -1} \frac{x}{x+1} = \frac{-1}{0} = DNE$
 
+## Infinite limits
+
+$\lim_{x \to 0^+} \frac{1}{x}$ blows up to infinite ... $+ \infin$
+$\lim_{x \to 0^-} \frac{1}{x} = - \infin$
+
+$\lim_{x \to 0} \frac{1}{x} = DNE$ because + and - limits do not agree
+
+$\lim_{x \to 0} \frac{1}{x^2} = + \infin$ because $x^2$ is always positive
+
+$\lim_{x \to 2} \frac{3x}{4 - x^2} = DNE$ needs to compute, + or - approaches from different sides
 
